@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #3b0066, #0a0013 70%);
+    color: #e6e0ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px 0;
+    background: linear-gradient(90deg, #4b0082, #000);
+    color: #d8c57a;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/* CONTENEDOR DE HISTORIA */
+.historia {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.caja {
+    background: rgba(20, 0, 35, 0.8);
+    border: 2px solid #6a00ff;
+    border-radius: 15px;
+    max-width: 900px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(130, 0, 255, 0.5);
+    transition: 0.4s ease;
+}
+
+/* EFECTO AL PASAR */
+.caja:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px #b26cff, 0 0 60px #5d00a6;
+}
+
+.caja h2 {
+    color: #d8c57a;
+    margin-bottom: 15px;
+}
+
+/* BOTÓN VOLVER */
+.volver {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.volver a {
+    background: linear-gradient(90deg, #6a00ff, #d8c57a);
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.volver a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #d8c57a;
+}

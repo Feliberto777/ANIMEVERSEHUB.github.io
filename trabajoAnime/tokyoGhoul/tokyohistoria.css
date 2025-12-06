@@ -1,0 +1,59 @@
+/* Fondo general */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid #444;
+    background: #0f0f0f;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #e50914; /* Rojo estilo Tokyo Ghoul */
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 10px;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.volver:hover {
+    color: white;
+}
+
+/* Contenido */
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Bloques de texto */
+.bloque {
+    background: #141414;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 5px solid #e50914;
+    border-radius: 6px;
+}
+
+.bloque h2 {
+    margin-top: 0;
+    color: #e50914;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 17px;
+}

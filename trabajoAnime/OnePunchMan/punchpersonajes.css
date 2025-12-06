@@ -1,0 +1,81 @@
+/* ====== ESTILO GENERAL ====== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+    color: #f4f4f4;
+}
+
+/* ====== HEADER ====== */
+header {
+    background: linear-gradient(to right, #1a1a1a, #000000);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #f8d34a;
+}
+
+header h1 {
+    color: #f8d34a;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* ====== BOTÓN VOLVER ====== */
+.volver-btn {
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    background-color: #f8d34a;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px #f8d34a;
+    transition: 0.3s;
+}
+
+.volver-btn:hover {
+    background-color: #ffe47c;
+    box-shadow: 0 0 18px #f8d34a;
+}
+
+/* ====== CONTENEDOR ====== */
+.personajes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+/* ====== TARJETAS ====== */
+.personaje-card {
+    background-color: #000000;
+    border: 2px solid #f8d34a;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(248, 211, 74, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.personaje-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(248, 211, 74, 0.6);
+}
+
+.personaje-card img {
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.personaje-card h2 {
+    color: #f8d34a;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.personaje-card p {
+    color: #e6e6e6;
+    font-size: 14px;
+}

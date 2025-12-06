@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #0b0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* TÍTULO */
+.title {
+    text-align: center;
+    font-size: 38px;
+    color: #e62b2b;  /* rojo Mashle */
+    text-shadow: 0 0 10px rgba(230, 43, 43, 0.7);
+    margin-bottom: 30px;
+}
+
+/* CONTENIDO */
+.content {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(20, 20, 20, 0.85);
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 1.6;
+    border: 2px solid rgba(230, 43, 43, 0.5);
+    box-shadow: 0 0 20px rgba(230, 43, 43, 0.3);
+}
+
+/* BOTÓN VOLVER */
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    padding: 15px 30px;
+    background: #e62b2b;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #ffce73; /* dorado */
+    box-shadow: 0 0 20px rgba(230, 43, 43, 0.7), inset 0 0 10px rgba(255, 206, 115, 0.4);
+    transition: 0.3s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+    background: #ff3b3b;
+    box-shadow: 0 0 30px rgba(255, 70, 70, 1);
+}

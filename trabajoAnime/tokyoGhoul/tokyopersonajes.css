@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #0d0d0d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 15px;
+    background: #101010;
+    border-bottom: 1px solid #222;
+}
+
+header h1 {
+    margin: 0;
+    color: #e50914;
+    font-size: 32px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 10px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: white;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+/* CARD con efecto pro */
+.card {
+    background: #151515;
+    padding: 15px;
+    border-radius: 14px;
+    text-align: center;
+    border: 2px solid rgba(229, 9, 20, 0.35);
+    transition: transform .25s ease, box-shadow .25s ease, border .25s ease;
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.12);
+}
+
+/* Hover PRO */
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid #e50914;
+    box-shadow: 0 0 25px rgba(229, 9, 20, 0.55), 
+                0 0 45px rgba(255, 255, 255, 0.12);
+}
+
+/* Imagen */
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+.card h2 {
+    margin: 10px 0 8px;
+    font-size: 20px;
+    color: #e50914;
+}
+
+.card p {
+    color: #d8d8d8;
+    line-height: 1.5;
+    font-size: 15px;
+}

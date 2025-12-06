@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #1a1a1a;
+    color: #f1e6d0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to bottom, #4a2e1f, #1a1a1a);
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #f8d7a1;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+/* Cards */
+.personajes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+.personaje-card {
+    background: rgba(255, 245, 230, 0.08);
+    border: 2px solid #5e4735;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.personaje-card:hover {
+    transform: scale(1.05);
+    border-color: #c59b6c;
+    box-shadow: 0 0 18px rgba(197, 155, 108, 0.7);
+}
+
+.personaje-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.personaje-card h2 {
+    margin-top: 12px;
+    color: #f8d7a1;
+}
+
+/* Botón */
+.back-btn-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #6b4a32;
+    color: #f1e6d0;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    border: 2px solid #c59b6c;
+}
+
+.back-btn:hover {
+    background: #c59b6c;
+    color: #1a1a1a;
+    transform: scale(1.07);
+}

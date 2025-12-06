@@ -1,0 +1,73 @@
+/* ======== GENERAL ======== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a0f14;
+    color: #ffece1;
+    font-family: Arial, sans-serif;
+}
+
+/* ======== HEADER ======== */
+header {
+    background: linear-gradient(to right, #ffcf47, #b30000, #5a0066);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #ffcf47;
+    box-shadow: 0 0 25px rgba(255, 207, 71, 0.6);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #260000;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+/* ======== CONTENIDO ======== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.historia-box {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #ffcf47;
+    border-right: 5px solid #5a0066;
+    box-shadow: 0 0 22px rgba(255, 207, 71, 0.35);
+}
+
+.historia-box h2 {
+    color: #ffcf47;
+    text-shadow: 0 0 10px rgba(255, 207, 71, 0.8);
+}
+
+.historia-box p {
+    line-height: 1.6;
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+
+/* ======== BOTÓN VOLVER ======== */
+.volver-btn {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 15px 28px;
+    background: linear-gradient(90deg, #ffcf47, #b30000, #5a0066);
+    color: #1a0f14;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 17px;
+    box-shadow: 0 0 20px rgba(255, 207, 71, 0.8);
+    transition: 0.3s;
+}
+
+.volver-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 35px rgba(255, 207, 71, 1);
+}

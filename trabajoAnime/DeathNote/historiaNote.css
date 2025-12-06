@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.historia-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #1a1a1a;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+    color: #ddd;
+}
+
+.volver-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.volver-btn:hover {
+    background: #d9d9d9;
+}

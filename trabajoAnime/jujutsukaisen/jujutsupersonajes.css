@@ -1,0 +1,92 @@
+/* Fondo general */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #0b0b0d, #1a1a1d);
+    color: white;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* GRID */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+/* CARD estilo Jujutsu Kaisen */
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 15px;
+    text-align: center;
+    transition: transform .25s ease, box-shadow .25s ease;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.15);
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 25px rgba(255, 20, 20, 0.55);
+}
+
+/* Imagen */
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+/* Texto */
+.card h3 {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+/* BOTÓN VOLVER */
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #ff0000, #8a0000);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.btn-back:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 18px rgba(255, 0, 0, 0.6);
+}

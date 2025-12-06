@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ====== HEADER ====== */
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #9b00ff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.6em;
+    color: #d39bff;
+    letter-spacing: 1px;
+}
+
+/* ====== CONTENEDOR ====== */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    flex: 1;
+}
+
+.content-box {
+    background: #1a1a1a;
+    padding: 22px;
+    border-radius: 12px;
+    border: 2px solid #9b00ff;
+    box-shadow: 0 0 18px rgba(155, 0, 255, 0.45);
+}
+
+.content-box p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* ====== FOOTER Y BOTÓN ====== */
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* 🔥 BOTÓN LLAMATIVO — MORADO NEÓN 🔥 */
+.btn-back {
+    padding: 14px 35px;
+    background: linear-gradient(135deg, #9b00ff, #5700b8);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid #d39bff;
+    cursor: pointer;
+
+    /* Brillo animado */
+    box-shadow: 0 0 10px rgba(155, 0, 255, 0.6),
+                0 0 20px rgba(155, 0, 255, 0.4);
+
+    transition: 0.25s ease-in-out;
+}
+
+/* HOVER BRILLANTE MÁS GRANDE */
+.btn-back:hover {
+    transform: scale(1.12);
+    background: linear-gradient(135deg, #d39bff, #9b00ff);
+    box-shadow: 0 0 16px rgba(211, 155, 255, 0.7),
+                0 0 35px rgba(155, 0, 255, 0.5);
+}
